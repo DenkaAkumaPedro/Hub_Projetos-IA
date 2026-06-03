@@ -1,0 +1,91 @@
+Crie um site estático, simples, moderno e responsivo, no estilo “Linktree”, para reunir todos os projetos de sites que estou criando no meu curso de IA.
+
+Objetivo:
+- Este site será um hub de links para meus projetos.
+- Ele será enviado para o GitHub e publicado no Vercel.
+- Portanto, a estrutura deve ser compatível com deploy estático.
+- Use apenas HTML, CSS e JavaScript puro, sem backend e sem dependências complexas.
+- Gere arquivos organizados e fáceis de editar.
+
+Estrutura do projeto:
+- index.html
+- style.css
+- script.js
+- README.md com instruções curtas de como editar os links, subir no GitHub e publicar no Vercel
+
+Requisitos do site:
+- Layout de página única
+- Visual limpo, elegante e minimalista
+- Design responsivo para celular e desktop
+- Estilo inspirado em um Linktree, mas com aparência mais profissional
+- Fundo suave e moderno
+- Card central ou container principal com boa hierarquia visual
+- Cabeçalho com:
+  - título do site: “Projetos do Curso de IA”
+  - subtítulo curto explicando que é uma coleção de projetos publicados
+- Área principal com lista de cards ou botões de links dos projetos
+- Cada projeto deve ter:
+  - nome do projeto
+  - descrição curta
+  - botão ou card clicável para abrir o link
+- Criar 5 projetos de exemplo já preenchidos com nomes fictícios e links placeholder (#)
+- A estrutura deve deixar MUITO fácil adicionar novos projetos depois, preferencialmente usando um array em JavaScript para renderizar os cards automaticamente
+- Não quero precisar duplicar muito HTML manualmente para novos links
+
+Funcionalidades:
+- Renderizar os projetos a partir de um array de objetos no script.js
+- Cada objeto deve ter:
+  - title
+  - description
+  - url
+- Criar comentários no código mostrando exatamente onde adicionar novos projetos
+- Adicionar hover suave nos cards/botões
+- Adicionar animações leves de entrada, sem exagero
+- Incluir modo escuro automático baseado no sistema, ou pelo menos um visual que funcione bem em telas claras e escuras
+- Garantir acessibilidade básica:
+  - contraste bom
+  - foco visível
+  - texto legível
+  - botões/links com área de toque adequada no mobile
+
+Conteúdo inicial dos 5 projetos:
+1. Projeto 1 — Landing Page com IA
+2. Projeto 2 — Portfólio Responsivo
+3. Projeto 3 — Site de Produto
+4. Projeto 4 — Página de Serviços
+5. Projeto 5 — Mini Dashboard
+
+Para cada um, colocar uma descrição curta e link placeholder.
+
+Requisitos técnicos importantes:
+- Todos os links externos devem abrir em nova aba
+- Código limpo e bem organizado
+- CSS separado do HTML
+- JavaScript separado do HTML
+- Sem frameworks
+- Sem bibliotecas desnecessárias
+- O site deve funcionar apenas abrindo o index.html ou em hospedagem estática
+- Preparar para deploy no Vercel sem configuração complicada
+
+Também quero:
+- Um README.md com:
+  1. como editar os projetos no array
+  2. como subir para o GitHub
+  3. como publicar no Vercel
+- No README, explique de forma curta e prática
+
+Estilo visual desejado:
+- simples
+- profissional
+- responsivo
+- moderno
+- sem poluição visual
+- com espaçamento bom
+- tipografia limpa
+- botões e cards elegantes
+
+Importante:
+- Entregue o projeto completo com os arquivos prontos
+- Use nomes claros nas classes CSS
+- Deixe o código fácil para manutenção futura
+- Adicione comentários úteis apenas onde realmente ajudar

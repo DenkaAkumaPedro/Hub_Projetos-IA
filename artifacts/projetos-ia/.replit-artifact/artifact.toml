@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Projetos do Curso de IA"
+version = "1.0.0"
+id = "artifacts/projetos-ia"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20224
+
+[services.development]
+run = "pnpm --filter @workspace/projetos-ia run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/projetos-ia", "run", "build" ]
+publicDir = "artifacts/projetos-ia/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20224"
+BASE_PATH = "/"
