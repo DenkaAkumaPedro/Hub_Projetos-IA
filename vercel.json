@@ -1,0 +1,5 @@
+{
+  "buildCommand": null,
+  "outputDirectory": "artifacts/projetos-ia/public",
+  "installCommand": "echo ok"
+}

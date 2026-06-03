@@ -19,10 +19,11 @@ const basePath = process.env.BASE_PATH ?? "/";
 
 export default defineConfig({
   base: basePath,
-  root: path.resolve(import.meta.dirname),
-  publicDir: path.resolve(import.meta.dirname, "public"),
+  // Serve directly from public/ — index.html and all assets live there
+  root: path.resolve(import.meta.dirname, "public"),
+  publicDir: false,
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
   },
   server: {
