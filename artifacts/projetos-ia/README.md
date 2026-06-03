@@ -51,6 +51,9 @@ git push -u origin main
 
 Pronto — em alguns segundos o site estará no ar com uma URL pública.
 
+
+deu erro ainda 
+
 ---
 
 ## Estrutura dos arquivos
