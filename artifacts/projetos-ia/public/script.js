@@ -23,19 +23,19 @@ const projects = [
   {
     title: "Projeto 1 — Landing Page com IA",
     description: "Página de apresentação gerada com auxílio de inteligência artificial.",
-    url: "#",
+    url: "https://denkaakumapedro.github.io/Link-Hub-M2-T/",
     icon: "🚀"
   },
   {
     title: "Projeto 2 — Portfólio Responsivo",
     description: "Site de portfólio pessoal, adaptável a qualquer tela.",
-    url: "#",
+    url: "https://project-ox8vy-86svpshzh-denka-akuma-s-projects.vercel.app/",
     icon: "🎨"
   },
   {
     title: "Projeto 3 — Site de Produto",
     description: "Página de divulgação de produto com foco em conversão.",
-    url: "#",
+    url: "https://claude-1-teste-qm7b44655-denka-akuma-s-projects.vercel.app/",
     icon: "🛍️"
   },
   {
