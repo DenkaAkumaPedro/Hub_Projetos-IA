@@ -168,7 +168,7 @@ body {
 .card-icon {
   width: 44px;
   height: 44px;
-  border-radius: 10px;
+  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
   background: var(--accent-light);
   color: var(--accent);
   display: flex;
