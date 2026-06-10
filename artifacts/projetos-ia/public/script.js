@@ -21,19 +21,19 @@ const projects = [
   // ▼ ADICIONE NOVOS PROJETOS AQUI ▼
 
   {
-    title: "Projeto 1 — Landing Page com IA",
+    title: "Projeto 1 — Link Hub Bio feito no Replit",
     description: "Página de apresentação gerada com auxílio de inteligência artificial.",
     url: "https://denkaakumapedro.github.io/Link-Hub-M2-T/",
     icon: "🚀"
   },
   {
-    title: "Projeto 2 — Portfólio Responsivo",
+    title: "Projeto 2 — Link Hub Bio feito no VSCode",
     description: "Site de portfólio pessoal, adaptável a qualquer tela.",
     url: "https://project-ox8vy-86svpshzh-denka-akuma-s-projects.vercel.app/",
     icon: "🎨"
   },
   {
-    title: "Projeto 3 — Site de Produto",
+    title: "Projeto 3 — Link Hub Bio feito no Claude",
     description: "Página de divulgação de produto com foco em conversão.",
     url: "https://claude-1-teste-qm7b44655-denka-akuma-s-projects.vercel.app/",
     icon: "🛍️"
