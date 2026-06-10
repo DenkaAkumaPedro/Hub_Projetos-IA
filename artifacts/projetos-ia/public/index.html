@@ -19,7 +19,20 @@
     <canvas id="hex-bg" aria-hidden="true"></canvas>
     <main class="page">
       <header class="header">
-        <div class="avatar" aria-hidden="true">✦</div>
+        <div class="avatar-wrap">
+          <svg class="avatar-hex-frame" viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <clipPath id="hex-clip">
+                <polygon points="55,5 101,30 101,80 55,105 9,80 9,30"/>
+              </clipPath>
+            </defs>
+            <image href="https://pps.services.adobe.com/api/profile/44D62C1653E8E3E80A490D4B@AdobeID/image/7f2584d0-cff9-4010-95ca-f62397d3e529/115"
+              x="9" y="5" width="92" height="100"
+              preserveAspectRatio="xMidYMid slice"
+              clip-path="url(#hex-clip)"/>
+            <polygon class="hex-neon" points="55,5 101,30 101,80 55,105 9,80 9,30"/>
+          </svg>
+        </div>
         <h1 class="title">Projetos do Curso de IA</h1>
         <p class="subtitle">Uma coleção de sites criados e publicados durante meu curso de inteligência artificial</p>
       </header>

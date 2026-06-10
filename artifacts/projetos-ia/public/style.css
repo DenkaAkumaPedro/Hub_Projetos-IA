@@ -103,18 +103,37 @@ body {
   animation: fadeSlideIn 0.5s ease both;
 }
 
-.avatar {
-  width: 64px;
-  height: 64px;
-  background: var(--accent-light);
-  border: 1.5px solid var(--border);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  color: var(--accent);
+.avatar-wrap {
+  width: 84px;
+  height: 84px;
   flex-shrink: 0;
+}
+
+.avatar-hex-frame {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  animation: neonPulse 2.8s ease-in-out infinite;
+}
+
+.hex-neon {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+
+@keyframes neonPulse {
+  0%, 100% {
+    filter:
+      drop-shadow(0 0 2px var(--accent))
+      drop-shadow(0 0 5px var(--accent));
+  }
+  50% {
+    filter:
+      drop-shadow(0 0 4px var(--accent))
+      drop-shadow(0 0 10px var(--accent))
+      drop-shadow(0 0 20px var(--accent));
+  }
 }
 
 .title {
